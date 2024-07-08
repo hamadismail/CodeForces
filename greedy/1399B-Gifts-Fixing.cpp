@@ -34,7 +34,7 @@ int main() {
         for(auto &i: b) cin >> i;
 
         int x = *min_element(all(a));
-		int y = *min_element(all(b));
+	int y = *min_element(all(b));
         ll cnt = 0;
 
         ffl(i, 0, n) {
