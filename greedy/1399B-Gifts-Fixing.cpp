@@ -40,7 +40,7 @@ int main() {
         ffl(i, 0, n) {
             cnt += max(a[i]-x, b[i]-y);
             /* ans += min(a[i] - x , b[i] - y);
-			ans += max(a[i] - x , b[i] - y) - min(a[i] - x , b[i] - y); */
+	       ans += max(a[i] - x , b[i] - y) - min(a[i] - x , b[i] - y); */
         }
         
         cout << cnt << ln;
